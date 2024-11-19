@@ -1,0 +1,158 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\Luis Miranda\\Documents\\GitHub\\aplicando-testes\\Conversor.Tests\\Conversor.Tests.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\Luis Miranda\\Documents\\GitHub\\aplicando-testes\\Conversor.Tests\\Conversor.Tests.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Luis Miranda\\Documents\\GitHub\\aplicando-testes\\Conversor.Tests\\Conversor.Tests.csproj",
+        "projectName": "Conversor.Tests",
+        "projectPath": "C:\\Users\\Luis Miranda\\Documents\\GitHub\\aplicando-testes\\Conversor.Tests\\Conversor.Tests.csproj",
+        "packagesPath": "C:\\Users\\Luis Miranda\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Luis Miranda\\Documents\\GitHub\\aplicando-testes\\Conversor.Tests\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Luis Miranda\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\Luis Miranda\\Documents\\GitHub\\aplicando-testes\\Conversor\\Conversor.csproj": {
+                "projectPath": "C:\\Users\\Luis Miranda\\Documents\\GitHub\\aplicando-testes\\Conversor\\Conversor.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[17.8.0, )"
+            },
+            "Moq": {
+              "target": "Package",
+              "version": "[4.20.72, )"
+            },
+            "SpecFlow": {
+              "target": "Package",
+              "version": "[3.9.74, )"
+            },
+            "SpecFlow.xUnit": {
+              "target": "Package",
+              "version": "[3.9.74, )"
+            },
+            "coverlet.collector": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "xunit": {
+              "target": "Package",
+              "version": "[2.5.3, )"
+            },
+            "xunit.runner.visualstudio": {
+              "target": "Package",
+              "version": "[2.5.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Luis Miranda\\Documents\\GitHub\\aplicando-testes\\Conversor\\Conversor.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Luis Miranda\\Documents\\GitHub\\aplicando-testes\\Conversor\\Conversor.csproj",
+        "projectName": "Conversor",
+        "projectPath": "C:\\Users\\Luis Miranda\\Documents\\GitHub\\aplicando-testes\\Conversor\\Conversor.csproj",
+        "packagesPath": "C:\\Users\\Luis Miranda\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Luis Miranda\\Documents\\GitHub\\aplicando-testes\\Conversor\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Luis Miranda\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
